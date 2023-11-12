@@ -90,23 +90,7 @@ int main(){
 	//double gradient_dy[window_length][window_length] = { 0 };
 	//double gradient_dx[window_length][window_length] = { 0 };
 
-	//for (int yi = 0; yi < window_length; yi++) {
-	//	for (int xi = 0; xi < window_length; xi++) {
-	//		float temp_dx = 0;
-	//		float temp_dy = 0;
-	//		for (int kernel_yi = 0, patch_yi = kernel_yi - kernel_size / 2; kernel_yi < kernel_size; kernel_yi++, patch_yi++) {
-	//			if (patch_yi < 0 || patch_yi >= window_length) continue;
 
-	//			for (int kernel_xi = 0, patch_xi = kernel_xi - kernel_size / 2; kernel_xi < kernel_size; kernel_xi++, patch_xi++) {
-	//				if (patch_xi < 0 || patch_xi >= window_length) continue;
-
-	//				gradient_dy[yi][xi] += patch[patch_yi][patch_xi] * sobel_x[kernel_yi][kernel_xi];
-	//				gradient_dx[yi][xi] += patch[patch_yi][patch_xi] * sobel_y[kernel_yi][kernel_xi];
-
-	//			}
-	//		}
-	//	}
-	//}
 
 
 }
